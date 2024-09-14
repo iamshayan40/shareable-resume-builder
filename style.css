@@ -1,0 +1,187 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(230, 230, 230);
+    padding: 20px;
+    margin: 0;
+    color: #ffffffd7;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header Styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #4486ce;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  input {
+    margin-top: 5px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: calc(100% - 30px);
+    background-color: #ffffff;
+    color: #000000;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #2d91e2;
+    box-shadow: 0 0 8px #29a7ce;
+    outline: none;
+  }
+  
+  button {
+    padding: 15px;
+    background: linear-gradient(135deg, #4eaeee, #1890e0);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #0783ca, #2fbce7);
+    box-shadow: 0 0 10px #1d94c4;
+  }
+  
+  /* Resume Styles */
+  #resume-content {
+    background-color: #00000000;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    color: #000000;
+  }
+  
+  #resume-content h3 {
+    margin-top: 0;
+    color: #00bcd4;
+  }
+  
+  #resume-content p,
+  #resume-content ul {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #ffffff;
+  }
+  
+  /* Share Section Styles */
+  #share-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #shareable-link {
+    display: block;
+    margin: 10px 0;
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  #shareable-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  #copy-link-btn,
+  #download-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  #copy-link-btn:hover,
+  #download-btn:hover {
+    background: linear-gradient(135deg, #00bcd4, #1e90ff);
+    box-shadow: 0 0 10px #00bcd4;
+    border-color: #00bcd4;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    input,
+    button {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    input,
+    button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  }
+  
